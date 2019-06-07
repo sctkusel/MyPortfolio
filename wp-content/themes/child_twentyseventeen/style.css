@@ -8,3 +8,23 @@ Template: twentyseventeen
 
 @import url('../twentyseventeen/style.css');
 
+
+@import url('https://fonts.googleapis.com/css?family=KoHo:400,500|Merriweather+Sans:700&display=swap');
+
+
+body {
+	font-family: 'KoHo', sans-serif;
+	font-weight: 500;
+	background-color: blue;
+}
+
+
+.site-title {
+	font-family: 'Merriweather Sans', sans-serif;
+}
+
+
+h1, h2 {
+	font-family: "Merriweather Sans", sans-serif;
+}
+
