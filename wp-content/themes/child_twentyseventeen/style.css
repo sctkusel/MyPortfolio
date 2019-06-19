@@ -18,7 +18,7 @@ body {
 }
 
 
-.site-title {
+body.has-header-image .site-title a {
 	font-family: 'Merriweather Sans', sans-serif;
 }
 
@@ -29,4 +29,8 @@ h1, h2 {
 
 .site-content-contain {
 	background-color: #FFFEF5;
+}
+
+.copyright {
+	font-size: 1em;
 }

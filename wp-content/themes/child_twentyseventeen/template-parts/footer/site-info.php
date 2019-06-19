@@ -18,5 +18,5 @@
 	<!-- <a href="<?php echo esc_url( __( 'https://wordpress.org/', 'twentyseventeen' ) ); ?>" class="imprint">
 		<?php printf( __( 'Proudly powered by %s', 'twentyseventeen' ), 'WordPress' ); ?>
 	</a> -->
-	<h3 
+	<h3 class="copyright">&copy Sabrina Civelli - 2019</h3>
 </div><!-- .site-info -->
