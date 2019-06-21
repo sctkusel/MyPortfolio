@@ -15,6 +15,11 @@ Template: twentyseventeen
 body {
 	font-family: 'KoHo', sans-serif;
 	font-weight: 500;
+	color: #190d75;
+}
+
+.navigation-top a {
+    color: #190d75;
 }
 
 
@@ -22,9 +27,26 @@ body.has-header-image .site-title a {
 	font-family: 'Merriweather Sans', sans-serif;
 }
 
+body.has-header-image .site-title a, body.has-header-video .site-title a {
+    color: #d6d1d1;
+}
+
+body.has-header-image .site-description, body.has-header-video .site-description {
+    color: #d6d1d1;
+}
 
 h1, h2 {
 	font-family: "Merriweather Sans", sans-serif;
+}
+
+#divListPortfolio {
+	display: inline-block;
+	max-width: 240px;
+	margin: 0px 10px;
+}
+
+#divListPortfolio img {
+	border:1px solid #c1c1c1;
 }
 
 .site-content-contain {

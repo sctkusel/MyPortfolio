@@ -20,6 +20,7 @@
 	?>
 	<header class="entry-header">
 		<?php
+		/*
 		if ( 'post' === get_post_type() ) {
 			echo '<div class="entry-meta">';
 			if ( is_single() ) {
@@ -30,6 +31,7 @@
 			};
 			echo '</div><!-- .entry-meta -->';
 		};
+		*/
 
 		if ( is_single() ) {
 			the_title( '<h1 class="entry-title">', '</h1>' );
